@@ -2,7 +2,7 @@
 
 This is a template for a local package called `fiberoo`. To install this package in develop mode:
 
-```bash
+```sh
 git clone http://github.com/patrickmineault/minimal-package.git
 cd minimal-package
 pip install -e .
@@ -10,7 +10,7 @@ pip install -e .
 
 `-e` enables development mode, meaning you don't need to reinstall your package everytime you change something inside. From this point on you can import this package from anywhere inside your environment - it doesn't matter what the path or the current irectory, you can always use:
 
-```
+```python
 import fiberoo
 ```
 
